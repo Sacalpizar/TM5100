@@ -1,0 +1,111 @@
+@import 'fonts';
+@import 'vars';
+@import 'media-queries';
+body{
+    font-family: 'NotoItalic';
+}
+h2{
+    font-family: 'NotoLight';
+    padding: 0.8em 0;
+}
+h3{
+    font-family: 'NotoBold';
+    padding: 0.5em 0;
+}
+.container-fluid{
+    padding: 0;
+}
+
+//header
+.top-bar{
+    width: 100%;
+    position: fixed;
+    opacity: 75%;
+    background: $nav-bg;
+    font-family: 'NotoBold';
+}
+.top-nav{
+    position: relative;
+    right: 12em;
+    padding: .5em;
+    margin: 1.8em 0;
+    float: right;
+}
+.top-link{
+    margin: 0 0.1em;
+    padding: 0 1.2em;
+    font-size: 1em;
+    color: $white-copy;
+    text-decoration: none;
+}
+
+.top-item{
+    display: inline;
+}
+
+.logo{
+    position: relative;
+    left: 6em;
+    margin: 0em;
+    padding: 0.7em 0;
+    display: block;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: $white-copy;
+}
+.img-header{
+    background: url(../imgs/header.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 13em 0;
+}
+.text-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    background: $dark-bg;
+    color: $white-copy;
+    padding: 0 1em;
+}
+//Header
+
+//Services
+.services-section{
+    background: $light-blue;
+    padding: 2em 13em;
+    color: $white-copy;
+}
+.services-text{
+    font-family: 'NotoRegular'
+}
+//Services
+
+//Portfolio
+.portfolio-title{
+    margin: 0;
+    padding: 1.5em 0;
+    position: relative;
+    right: -8.5em;
+    font-size: 1.5em;
+    font-family: 'NotoLight';
+    text-decoration: none;
+}
+.portfolio-nav{
+    position: relative;
+    float: right;
+    margin: 3em;
+    right: 8.7em;
+}
+.portfolio-bar{
+    width: 100%;
+    font-family: 'Notobold';
+}
+.portfolio-link{
+    margin: 0 1.4em;
+    padding: 0;
+    font-size: 1em;
+    text-decoration: none;
+    color: $dark-bg;
+}
+
+//Portfolio

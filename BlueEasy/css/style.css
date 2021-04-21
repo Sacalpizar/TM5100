@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "NotoBold";
+  src: url("../fonts/notosans-bold-webfont.eot");
+  src: url("../fonts/notosans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-bold-webfont.woff2") format("woff2"), url("../fonts/notosans-bold-webfont.woff") format("woff"), url("../fonts/notosans-bold-webfont.ttf") format("truetype"), url("../fonts/notosans-bold-webfont.svg#noto_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoItalic";
+  src: url("../fonts/notosans-italic-webfont.eot");
+  src: url("../fonts/notosans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-italic-webfont.woff2") format("woff2"), url("../fonts/notosans-italic-webfont.woff") format("woff"), url("../fonts/notosans-italic-webfont.ttf") format("truetype"), url("../fonts/notosans-italic-webfont.svg#noto_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoRegular";
+  src: url("../fonts/notosans-regular-webfont.eot");
+  src: url("../fonts/notosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-regular-webfont.woff2") format("woff2"), url("../fonts/notosans-regular-webfont.woff") format("woff"), url("../fonts/notosans-regular-webfont.ttf") format("truetype"), url("../fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoLight";
+  src: url("../fonts/notosans-light-webfont.woff2") format("woff2"), url("../fonts/notosans-light-webfont.woff") format("woff"), url("../fonts/notosans-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "NotoItalic";
+}
+
+h2 {
+  font-family: "NotoLight";
+  padding: 0.8em 0;
+}
+
+h3 {
+  font-family: "NotoBold";
+  padding: 0.5em 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.top-bar {
+  width: 100%;
+  position: fixed;
+  opacity: 75%;
+  background: rgba(53, 63, 70, 0.7);
+  font-family: "NotoBold";
+}
+
+.top-nav {
+  position: relative;
+  right: 12em;
+  padding: 0.5em;
+  margin: 1.8em 0;
+  float: right;
+}
+
+.top-link {
+  margin: 0 0.1em;
+  padding: 0 1.2em;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-item {
+  display: inline;
+}
+
+.logo {
+  position: relative;
+  left: 6em;
+  margin: 0em;
+  padding: 0.7em 0;
+  display: block;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.img-header {
+  background: url(../imgs/header.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 13em 0;
+}
+
+.text-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  background: #353f46;
+  color: #fff;
+  padding: 0 1em;
+}
+
+.services-section {
+  background: #4bcaff;
+  padding: 2em 13em;
+  color: #fff;
+}
+
+.services-text {
+  font-family: "NotoRegular";
+}
+
+.portfolio-title {
+  margin: 0;
+  padding: 1.5em 0;
+  position: relative;
+  right: -8.5em;
+  font-size: 1.5em;
+  font-family: "NotoLight";
+  text-decoration: none;
+}
+
+.portfolio-nav {
+  position: relative;
+  float: right;
+  margin: 3em;
+  right: 8.7em;
+}
+
+.portfolio-bar {
+  width: 100%;
+  font-family: "Notobold";
+}
+
+.portfolio-link {
+  margin: 0 1.4em;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  color: #353f46;
+}

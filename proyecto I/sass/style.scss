@@ -1,0 +1,63 @@
+//VARIABLES
+$black-bg: #272727;
+$dark-black: #1E1E1E;
+$white: #E2E2E2;
+$gold: #C6A47D;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    background: $black-bg;
+    color: $white;
+}
+
+//header
+.top-bar{
+    width: 100%;
+    font-family: 'NotoBold';
+    opacity: 75%;
+}
+.top-nav{
+    margin: 1.8em 0;
+    text-align: center;
+}
+
+.img-header{
+    padding: 14em 0;
+    background: url(../imgs/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 3em;
+    color: $gold;
+}
+.logo:hover{
+    color: $dark-black;
+}
+
+.search-field{
+    text-align: center;
+}
+.search-input{
+    padding: 1em 0.8em;
+    width: 25em;
+    background: $white;
+    outline: 0;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+.search-btn{
+    padding: 1em;
+    background: $white;
+    border-radius: 0 5px 5px 0;
+    color: $dark-black;
+}
+.search-btn:hover{
+    color: $white;
+    background: $dark-black;
+}
+//header

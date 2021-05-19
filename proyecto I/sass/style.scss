@@ -21,8 +21,8 @@ h2{
     color: $gold;
 }
 footer{
-    width: 100%;
     padding: 5em 0 3em 0;
+    width: 100%;
     text-align: center;
 }
 
@@ -80,26 +80,26 @@ footer{
     color: $dark-black;
 }
 .search-btn:hover{
-    color: $white;
     background: $dark-black;
+    color: $white;
 }
 //header
 
 //select
 .select-section{
-    text-align: center;
     margin: 1.5em 0;
+    text-align: center;
 }
 .select-cb{
     padding: 1em 0.8em;
     width: 20em;
-    color: $white;
     background: $dark-black;
     border:1px solid $dark-black;
+    border-radius: 0.5em;
     font-family: 'Raleway';
     font-weight: 300;
-    border-radius: 0.5em;
     cursor: pointer;
+    color: $white;
 
     @include respond-to($phone) {
         width: 15em;
@@ -112,8 +112,8 @@ footer{
 }
 .select-option{
     background: $white;
-    color: $dark-black;
     border: none;
+    color: $dark-black;
 }
 //select
 
@@ -128,32 +128,30 @@ footer{
 }
 
 .card-text{
+    margin: 0 2em 1.4em 2em;
     font-family: 'Raleway';
     font-size: 1em;
     font-weight: 100;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 1.4em;
 }
 .card {
-    max-width: 300px;
     margin: auto;
+    max-width: 300px;
     text-align: center;
     font-family: arial;
     background: $dark-black;
 }
   
 .card-button {
+    padding: 12px;
+    width: 100%;
     border: none;
     outline: 0;
-    padding: 12px;
-    color: white;
     background-color: $gold;
     text-align: center;
-    cursor: pointer;
-    width: 100%;
     font-size: 18px;
     text-decoration: none;
+    cursor: pointer;
+    color: $white;
 }
   
 .card-button:hover {
@@ -165,17 +163,17 @@ footer{
 //footer
 .footer-title{
     margin: 0.8em 0;
-    color: $white;
     font-family: 'Playfair Display';
     font-size: 1.3em;
+    color: $white;
 }
 .bottom-nav-item{
     margin-right: 2.4em;
     display: inline-block;
 }
 .footer-link{
-    color: $white;
     font-size: 1.3em;
+    color: $white;
 }
 .footer-link:hover{
     color: $gold;
@@ -187,19 +185,19 @@ footer{
     margin: 8em 3em 2em 3em;
 }
 .description-bg{
-    background: $dark-black;
-    padding-bottom: 1.8em;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
+    padding-bottom: 1.8em;
+    background: $dark-black;
+    text-align: center;
 }
 .description-title{
+    padding: .6em 0;
     font-family: 'Raleway';
     font-weight: 500;
     text-align: center;
     font-size: 1.3em;
-    padding: .6em 0;
 }
 .description-text{
     margin: 0 2em;
@@ -207,10 +205,100 @@ footer{
     text-align: left;
 }
 .ticket-title{
+    margin: 0.8em;
     font-family: 'Raleway';
     font-size: 1.8em;
     font-weight: 500;
     color: $gold;
-    margin: 0.8em;
 }
 //description
+
+//select
+.select-bg{
+    background: $dark-black;
+    //text-align: center;
+    padding: 2em;
+    width: 40em;
+    margin: auto;
+    margin-bottom: 0.8em;
+
+    @include respond-to($phone) {
+        width: 100%;
+    }
+}
+.select-text{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+.select-btn{
+    background: $gold;
+    font-size: 1em;
+    text-decoration: none;
+    color: $white;
+    margin: 0 0.4em;
+    padding: 0 0.4em;
+    border-radius: 1em;
+}
+.select-btn:hover{
+    opacity: 0.7;
+    color: $white;
+}
+//select
+
+//total
+.total-section{
+    text-align: center;
+    margin: auto;
+}
+.total-title{
+    margin: 1.4em;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: $gold;
+}
+.total-text{
+    color: $white;
+    font-size: 1em;
+}
+//total
+
+//info
+.info-container{
+    background: $dark-black;
+    margin: 8em 20em 1em 20em;
+    padding-top: 5em;
+    text-align: center;
+
+    @include respond-to($phone) {
+        margin: 8em 3em 1em 3em;
+    }
+}
+.info-input{
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    padding: 1em;
+    outline: 0;
+    background: $white;
+    border: none;
+
+    @include respond-to($phone) {
+        width: 10em;
+        padding: 0.5em;
+    }
+}
+.info-title{
+    font-size: 1.3em;
+    font-weight: 500;
+    color: $gold;
+
+    @include respond-to($phone) {
+        font-size: 1em;
+    }
+}
+.info-m{
+    margin: 0;
+}
+//info

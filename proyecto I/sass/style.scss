@@ -282,7 +282,7 @@ footer{
     margin-right: auto;
     margin-bottom: 5em;
     padding: 1em;
-    width: 18em;
+    width: 20em;
     outline: 0;
     background: $white;
     border: none;
@@ -299,6 +299,7 @@ footer{
 
     @include respond-to($phone) {
         font-size: 1em;
+        margin-bottom: 0.8em;
     }
 }
 .info-m{

@@ -77,16 +77,17 @@
         <!-- Tickets -->
         <section class="ticket-section">
             <div class="row">
-                @foreach($events as $events)
+                @foreach($events as $event)
                 <div class="col-6 col-sm-4" style="margin-top: 05em">
                 
                     <div class="card">
+                        
                         <img src="/imgs/concierto.jpg" alt="concierto" style="width: 100%">
-                        <h2>{{ $events->nombre_evento }}</h2>
-                        <p class="category-text">{{ $events->categoria }}</p>
-                        <p class="card-text">Lugar: {{ $events->lugar }}</p>
-                        <p class="card-text">Fecha: {{ $events->fecha }} {{ $events->hora }}</p>
-                        <a class="card-button" href="{{ route('description.show',$events->id)}}">Ticket</a>
+                        <h2>{{ $event->nombre_evento }}</h2>
+                        <p class="category-text">{{ $event->categoria }}</p>
+                        <p class="card-text">Lugar: {{ $event->lugar }}</p>
+                        <p class="card-text">Fecha: {{ $event->fecha }} {{ $event->hora }}</p>
+                        <a class="card-button" href="{{ route('description.show',$event->id)}}">Ticket</a>
                      
                     </div>
 

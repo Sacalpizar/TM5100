@@ -41,18 +41,16 @@
                     <div class="description-bg">
                         <img src="../imgs/concierto.jpg" alt="concierto" style="width: 100%">
                         <p class="description-title">Descripción</p>
-                        <p class="description-text">Lorem ipsum dolor sit amet consectetur adipiscing elit sodales eu, 
-                            vivamus montes molestie mi curae dapibus facilisi mus ornare mauris, 
-                            dictumst feugiat sem malesuada dis volutpat neque ullamcorper.</p>
+                        <p class="description-text">{{ $event->descripcion }}</p>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="row">
                         <div class="description-bg">
                             <p class="description-title">Concierto</p>
-                            <p class="ticket-title">Lorem Ipsum</p>
-                            <p class="card-text">18 de Mayo del 2021, 08:00 PM</p>
-                            <P class="card-text">San José</P>
+                            <p class="ticket-title">{{ $event->nombre_evento }}</p>
+                            <p class="card-text">{{ $event->fecha }}, {{ $event->hora }}</p>
+                            <P class="card-text">{{ $event->lugar }}</P>
                             <a class="card-button" href="{{ url('register') }}">Registrar</a>
                         </div>
                     </div>
